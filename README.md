@@ -36,7 +36,7 @@ hugo server
 And, publish the site with
 
 ```Bash
-hugo -D
+hugo
 ```
 
 The published contents stay in the dir `team_site/public`. Notice that its
