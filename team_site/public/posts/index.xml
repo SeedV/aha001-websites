@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Aha001 Team Site</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Aha001 Team Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>The Aha001 Team</copyright>
+    <lastBuildDate>Sun, 27 Jun 2021 00:09:35 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>/posts/welcome/</link>
+      <pubDate>Sun, 27 Jun 2021 00:09:35 +0800</pubDate>
+      
+      <guid>/posts/welcome/</guid>
+      <description>Welcome to the team site of the project Codename:Aha001!
+Who we are? We are a couple of engineers and designers who focus on building futuristic and fun stuff with technologies.
+Anything interesting here? Not really. We post random thoughts and experimental prototypes here. Have good luck!</description>
+    </item>
+    
+  </channel>
+</rss>
