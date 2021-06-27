@@ -60,7 +60,7 @@ of the web application into the subdir. Your demo application will be accessed
 via a URL like:
 
 ```Bash
-https://www.aha001.com/apps/your_demo_app
+https://www.aha001.com/apps/your_demo_app/
 ```
 
 Submit and push your change to github:
