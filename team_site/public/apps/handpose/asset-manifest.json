@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://www.aha001.com/apps/handpose/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "https://www.aha001.com/apps/handpose/static/js/main.64a4fa00.chunk.js",
+    "main.js.map": "https://www.aha001.com/apps/handpose/static/js/main.64a4fa00.chunk.js.map",
+    "runtime-main.js": "https://www.aha001.com/apps/handpose/static/js/runtime-main.1bf0dcb6.js",
+    "runtime-main.js.map": "https://www.aha001.com/apps/handpose/static/js/runtime-main.1bf0dcb6.js.map",
+    "static/js/2.4ce2d15b.chunk.js": "https://www.aha001.com/apps/handpose/static/js/2.4ce2d15b.chunk.js",
+    "static/js/2.4ce2d15b.chunk.js.map": "https://www.aha001.com/apps/handpose/static/js/2.4ce2d15b.chunk.js.map",
+    "static/js/3.d042a356.chunk.js": "https://www.aha001.com/apps/handpose/static/js/3.d042a356.chunk.js",
+    "static/js/3.d042a356.chunk.js.map": "https://www.aha001.com/apps/handpose/static/js/3.d042a356.chunk.js.map",
+    "index.html": "https://www.aha001.com/apps/handpose/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "https://www.aha001.com/apps/handpose/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.4ce2d15b.chunk.js.LICENSE.txt": "https://www.aha001.com/apps/handpose/static/js/2.4ce2d15b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bf0dcb6.js",
+    "static/js/2.4ce2d15b.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.64a4fa00.chunk.js"
+  ]
+}
