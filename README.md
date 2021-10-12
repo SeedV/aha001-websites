@@ -6,6 +6,10 @@ Static website contents of the project Codename:Aha001.
 
 `empty_site` is an empty placeholder for the unused websites.
 
+## The SeedV site
+
+Simple homepage of http://www.SeedV.com.
+
 ## The team site
 
 `team_site` is a [hugo](https://gohugo.io/)-generated static blog site for the
