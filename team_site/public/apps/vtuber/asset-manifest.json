@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/apps/vtuber/static/css/main.a203870a.chunk.css",
-    "main.js": "/apps/vtuber/static/js/main.cf8238f1.chunk.js",
-    "main.js.map": "/apps/vtuber/static/js/main.cf8238f1.chunk.js.map",
-    "runtime-main.js": "/apps/vtuber/static/js/runtime-main.79dc76eb.js",
-    "runtime-main.js.map": "/apps/vtuber/static/js/runtime-main.79dc76eb.js.map",
-    "static/js/2.b8de3385.chunk.js": "/apps/vtuber/static/js/2.b8de3385.chunk.js",
-    "static/js/2.b8de3385.chunk.js.map": "/apps/vtuber/static/js/2.b8de3385.chunk.js.map",
-    "index.html": "/apps/vtuber/index.html",
-    "static/css/main.a203870a.chunk.css.map": "/apps/vtuber/static/css/main.a203870a.chunk.css.map",
-    "static/js/2.b8de3385.chunk.js.LICENSE.txt": "/apps/vtuber/static/js/2.b8de3385.chunk.js.LICENSE.txt",
-    "static/js/main.cf8238f1.chunk.js.LICENSE.txt": "/apps/vtuber/static/js/main.cf8238f1.chunk.js.LICENSE.txt"
+    "main.css": "https://aha001.com/apps/vtuber/static/css/main.a203870a.chunk.css",
+    "main.js": "https://aha001.com/apps/vtuber/static/js/main.2de08db1.chunk.js",
+    "main.js.map": "https://aha001.com/apps/vtuber/static/js/main.2de08db1.chunk.js.map",
+    "runtime-main.js": "https://aha001.com/apps/vtuber/static/js/runtime-main.f3d86bb0.js",
+    "runtime-main.js.map": "https://aha001.com/apps/vtuber/static/js/runtime-main.f3d86bb0.js.map",
+    "static/js/2.f6ce74f5.chunk.js": "https://aha001.com/apps/vtuber/static/js/2.f6ce74f5.chunk.js",
+    "static/js/2.f6ce74f5.chunk.js.map": "https://aha001.com/apps/vtuber/static/js/2.f6ce74f5.chunk.js.map",
+    "index.html": "https://aha001.com/apps/vtuber/index.html",
+    "static/css/main.a203870a.chunk.css.map": "https://aha001.com/apps/vtuber/static/css/main.a203870a.chunk.css.map",
+    "static/js/2.f6ce74f5.chunk.js.LICENSE.txt": "https://aha001.com/apps/vtuber/static/js/2.f6ce74f5.chunk.js.LICENSE.txt",
+    "static/js/main.2de08db1.chunk.js.LICENSE.txt": "https://aha001.com/apps/vtuber/static/js/main.2de08db1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.79dc76eb.js",
-    "static/js/2.b8de3385.chunk.js",
+    "static/js/runtime-main.f3d86bb0.js",
+    "static/js/2.f6ce74f5.chunk.js",
     "static/css/main.a203870a.chunk.css",
-    "static/js/main.cf8238f1.chunk.js"
+    "static/js/main.2de08db1.chunk.js"
   ]
 }
