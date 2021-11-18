@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="700" height="700">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgb(0,180,240)" />
+      <stop offset="100%" stop-color="rgb(101,90,255)" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgb(0,180,240)" />
+      <stop offset="100%" stop-color="rgb(100,200,90)" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgb(100,200,90)" />
+      <stop offset="100%" stop-color="rgb(255,171,0)" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgb(255,109,0)" />
+      <stop offset="100%" stop-color="rgb(255,171,0)" />
+    </linearGradient>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgb(229,57,53)" />
+      <stop offset="100%" stop-color="rgb(255,109,0)" />
+    </linearGradient>
+    <linearGradient id="shadow-grad1" x1="0%" y1="0%" x2="100%" y2="0%"
+        gradientTransform="rotate(25)">
+      <stop offset="0%" stop-opacity="0.25" />
+      <stop offset="40%" stop-opacity="0" />
+      <stop offset="100%" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="shadow-grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-opacity="0" />
+      <stop offset="60%" stop-opacity="0" />
+      <stop offset="100%" stop-opacity="0.25" />
+    </linearGradient>
+  </defs>
+  <path d="M100,0 h602 l-100,100 h-502 Z" fill="url(#grad5)" />
+  <path d="M100,0 h602 l-100,100 h-502 Z" fill="url(#shadow-grad2)" />
+  <path d="M-2,100 h602 v500 h-502 v-400 Z" fill="url(#grad1)" />
+  <path d="M0,100 l100,100 v400 l-100,100 Z" fill="url(#grad2)" />
+  <path d="M-2,700 l100,-100 h502 l100,100 Z" fill="url(#grad3)" />
+  <path d="M700,702 l-100,-100 v-502 l100,-100 Z" fill="url(#grad4)" />
+  <path d="M700,702 l-100,-100 v-502 l100,-100 Z" fill="url(#shadow-grad1)" />
+  <path d="M100,200 h100 v158.58 L458.58,100 L600,100 l-500,500 Z"
+      fill="#fff" opacity=".6" />
+</svg>
