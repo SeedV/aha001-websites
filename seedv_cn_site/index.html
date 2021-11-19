@@ -11,23 +11,102 @@
   <link rel="icon" sizes="any" type="image/svg+xml" href="images/seedv_icon.svg">
   <link rel="apple-touch-icon" sizes="120x120" href="images/seedv_icon_120.png">
   <link rel="apple-touch-icon" sizes="180x180" href="images/seedv_icon_180.png">
-  <style>
-    body,div,img{border:0;margin:0;padding:0;}
-    body{background-color:#000;font-family:"PingFang SC","Lantinghei SC","Microsoft Yahei",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";line-height:2em;}
-    main{display:flex;flex-direction:column;justify-content:space-between;align-items:center;height:100vh;}
-    footer{color:#ccc;font-size:80%;margin:1em;}
-    footer a{color:#ccc;text-decoration: none;}
-    footer a:hover{color:#f90;text-decoration: none;}
-    #logo>img{width:290px;height:70px;}
-  </style>
+  <link rel="stylesheet" href="css/seedv.css" />
+  <link rel="stylesheet" href="lib/fork-awesome/css/fork-awesome.min.css" />
 </head>
 
 <body>
+  <header class="container center-content">
+    <div class="container center-content">
+      <div class="row"><div id="logo" class="noselect"><img src="images/seedv_logo.svg"></div></div>
+      <div class="row"><span id="title">芒种星球实验室</span></div>
+      <nav class="row justify-content-space-between noselect">
+        <div id="button-about">关于</div>
+        <div id="button-apps">产品探索</div>
+        <div id="button-jobs">加入我们</div>
+      </nav>
+      <div id="angle-down" class="noselect fa fa-angle-down"></div>
+    </div>
+  </header>
+  </div>
   <main>
-    <header>&nbsp;</header>
-    <div id="logo"><img src="images/seedv_logo.svg"></div>
-    <footer><a href="http://beian.miit.gov.cn/">京ICP备2021035549号</a></footer>
+    <div class="gradient-bar"></div>
+    <section id="about" class="container center-content">
+      <article>
+        <h1>关于「芒种星球实验室」</h1>
+        <p>「芒种星球实验室」于 2021 年创建，是创新工场 AI 工程院孵化的科技创新与应用创意团队。</p>
+        <div class="row justify-content-space-around">
+          <div class="concept-icon fa fa-laptop"></div>
+          <div class="concept-icon fa fa-camera"></div>
+        </div>
+        <p>我们致力于将人工智能、虚拟现实、沉浸式人机交互、低代码编程、数据与流程仿真、可视化等前沿科技，与每个人的学习、工作、生活及娱乐体验连接起来。</p>
+        <div class="row justify-content-space-around">
+          <div class="concept-icon fa fa-coffee"></div>
+          <div class="concept-icon fa fa-sliders"></div>
+        </div>
+        <p>我们持续以开源方式与开发者、设计师共建创新型技术工具与内容，分享创新成果。</p>
+      </article>
+    </section>
+    <div class="gradient-bar"></div>
+    <section id="apps" class="container center-content dark">
+      <article>
+        <h1>产品探索</h1>
+        <p>我们将陆续发布和更新有趣的学习工具、效率工具、创意构建工具等产品。即将到来，敬请期待。</p>
+        <div class="row justify-content-space-around">
+          <div class="concept-icon fa fa-rocket"></div>
+          <div class="concept-icon fa fa-spinner"></div>
+        </div>
+        <p>我们试图思考：什么样的工具更有助于学习与分享？</p>
+        <div class="row justify-content-space-around">
+          <div class="concept-icon fa fa-motorcycle"></div>
+          <div class="concept-icon fa fa-key"></div>
+        </div>
+        <p>我们期望解决：如何让创新与创意的过程更有效率，让创新和创意的成果更有价值？</p>
+        <div class="row justify-content-space-around">
+          <div class="concept-icon fa fa-puzzle-piece"></div>
+          <div class="concept-icon fa fa-send-o"></div>
+        </div>
+        <p>我们愿意相信：<span class="highlighted">一切皆可能，万事皆有趣</span></p>
+      </article>
+    </section>
+    <div class="gradient-bar"></div>
+    <section id="jobs" class="container center-content">
+      <article>
+        <h1>加入我们</h1>
+        <p>我们以开源方式与科技、教育、工业设计等领域的科学家、工程师、产品设计师保持合作。</p>
+        <div class="row justify-content-space-around">
+          <div class="concept-icon fa fa-cubes"></div>
+          <div class="concept-icon fa fa-gears"></div>
+        </div>
+        <p>同时，我们也诚邀有理想的创新者加入我们的团队。目前开放的职位包括：</p>
+        <ul>
+          <li>视觉与交互设计师</li>
+          <li>视觉与交互设计实习生</li>
+          <li>图形学及3D渲染实习生</li>
+          <li>计算机体系结构实习生</li>
+        </ul>
+        <div class="row justify-content-space-around">
+          <div class="concept-icon fa fa-mortar-board"></div>
+          <div class="concept-icon fa fa-pencil"></div>
+        </div>
+        <p>有意者请邮件创新工场 AI 工程院招聘专员并注明「芒种星球实验室」字样：</p>
+        <p><span class="fa fa-envelope-open-o"></span>&nbsp;hr/at/chuangxin.com</p>
+      </article>
+    </section>
   </main>
+  <footer class="container center-content">
+    <p>版权所有 &copy; 北京芒种星球科技有限公司</p>
+    <p>Copyright &copy; Beijing SeedV Technology Co., Ltd.</p>
+    <p><a href="http://beian.miit.gov.cn/">京ICP备2021035549号</a></p>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script>
+    linkButtonToSection('angle-down', 'about');
+    linkButtonToSection('button-about', 'about');
+    linkButtonToSection('button-apps', 'apps');
+    linkButtonToSection('button-jobs', 'jobs');
+  </script>
 </body>
 
 </html>

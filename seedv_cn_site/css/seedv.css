@@ -1,0 +1,225 @@
+/**
+ * Classes for the flexbox display.
+ */
+
+ .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/**
+ * Common CSS features.
+ */
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/**
+ * Styles for tags.
+ */
+
+body, div, img {
+  border:0;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: "PingFang SC","Lantinghei SC","Microsoft Yahei",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";line-height:2em;
+  font-size: 16px;
+}
+
+a, a:visited {
+  color: #00b4f0;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color:#ff6d00;
+  text-decoration: none;
+}
+
+header {
+  background-color: #000;
+  color: #c8c8c8;
+  height: 100vh;
+  width: 100vw;
+}
+
+header #logo > img {
+  width: 290px;
+  height: 70px;
+}
+
+.gradient-bar {
+  background-image: linear-gradient(to right, #e53935, #ff6d00, #ffab00, #64c85a, #00b4f0, #655aff);
+  height: 5px;
+  width: 100vw;
+}
+
+header #title {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 32px;
+  line-height: 20px;
+  margin-top: 30px;
+  text-align: center;
+  text-indent: 32px;
+  white-space: nowrap;
+}
+
+header nav {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  width: 100%;
+  max-width: 100vw;
+}
+
+nav > div {
+  background-color: #00b4f0;
+  border-radius: 5px;
+  color: #cff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 16px;
+  padding: 14px;
+  white-space: nowrap;
+}
+
+header #angle-down {
+  color: #999;
+  cursor: pointer;
+  font-size: 140px;
+  line-height: 140px;
+}
+
+@media (hover: hover) {
+  nav > div:hover {
+    background-color: #ff6d00;
+    color: #fff;
+  }
+
+  header #angle-down:hover {
+    color: #ff6d00;;
+  }
+}
+
+main {
+  width: 100vw;
+}
+
+section {
+  background-color: #fff;
+}
+
+section.dark {
+  background-color: #000;
+  color: #c8c8c8;
+}
+
+article {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  width: 84%;
+}
+
+@media (min-width: 660px) {
+  article {
+    width: 600px;
+  }
+}
+
+article h1 {
+  font-size: 28px;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+article h2 {
+  font-size: 24px;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+article h3 {
+  font-size: 20px;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+article p {
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+article .highlighted {
+  font-size: 28px;
+}
+
+article div.concept-icon {
+  font-size: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+article ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #000;
+  color: #c8c8c8;
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  line-height: 14px;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
