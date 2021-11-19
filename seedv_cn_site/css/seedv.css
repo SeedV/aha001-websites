@@ -98,7 +98,13 @@ header #logo > img {
 .gradient-bar {
   background-image: linear-gradient(to right, #e53935, #ff6d00, #ffab00, #64c85a, #00b4f0, #655aff);
   height: 5px;
-  width: 100vw;
+  width: 100%;
+}
+
+.gradient-line {
+  background-image: linear-gradient(to right, #e53935, #ff6d00, #ffab00, #64c85a, #00b4f0, #655aff);
+  height: 1px;
+  width: 100%;
 }
 
 header #title {
@@ -179,8 +185,12 @@ article {
 article h1 {
   font-size: 28px;
   line-height: 2em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+article .gradient-line {
+  margin-bottom: 40px;
 }
 
 article h2 {
