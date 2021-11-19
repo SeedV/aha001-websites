@@ -114,9 +114,9 @@ header nav {
 }
 
 nav > div {
-  background-color: #00b4f0;
-  border-radius: 5px;
-  color: #cff;
+  border: 2px dotted #333;
+  border-radius: 10px;
+  color: #c8c8c8;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
@@ -127,7 +127,7 @@ nav > div {
 }
 
 header #angle-down {
-  color: #999;
+  color: #666;
   cursor: pointer;
   font-size: 140px;
   line-height: 140px;
