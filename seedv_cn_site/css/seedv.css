@@ -95,6 +95,18 @@ header #logo > img {
   width: 290px;
 }
 
+navbar {
+  background-color: #000;
+  color: #c8c8c8;
+  height: 95px;
+}
+
+navbar #logo > img {
+  height: 35px;
+  margin: 30px 30px 30px 50px;
+  width: 145px;
+}
+
 .gradient-bar {
   background-image: linear-gradient(to right, #e53935, #ff6d00, #ffab00, #64c85a, #00b4f0, #655aff);
   height: 5px;
